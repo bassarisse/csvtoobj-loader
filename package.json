@@ -12,6 +12,7 @@
     "loader",
     "webpack",
     "csv",
+    "json",
     "object"
   ],
   "main": "index.js",

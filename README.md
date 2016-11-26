@@ -50,14 +50,14 @@ Output:
 
 Code:
 ```javascript
-require('csvtoobj?col=en!./lang.csv')
+require('csvtoobj?col=pt!./lang.csv')
 ```
 
 Output:
 ```javascript
 {
-    greeding: 'Hi',
-    confirm: 'Confirm'
+    greeding: 'Oi',
+    confirm: 'Confirmar'
 }
 ```
 
@@ -65,7 +65,7 @@ Output:
 ## Options (inline)
 
 Process:
-- `key` (default: 'key') - name of the column to use as hash
+- `key` (default: 'key') - name of the column to use as hash key
 - `col` - the name of the desired column to be returned, leave blank to receive the entire object
 
 Parse:
@@ -78,4 +78,4 @@ For more information about the parse options, check out the [documentation of th
 
 
 ## License
-csvtoobj-loader is free and unencumbered public domain software. For more information, see the accompanying UNLICENSE file.
+csvtoobj-loader is free and unencumbered public domain software. For more information, see the accompanying LICENSE file.
